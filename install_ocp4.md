@@ -1,10 +1,4 @@
-Install OpenShift 4 on Hetzner Server.md
-Today
-12:03 PM
 
-Nicolas Masse uploaded an item
-Text
-Install OpenShift 4 on Hetzner Server.md
 # Install OpenShift 4 on Hetzner Server
 ## Install the host system
 -> see [[Install RHEL8 on Hetzner Server]].
