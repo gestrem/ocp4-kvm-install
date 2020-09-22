@@ -1,0 +1,17 @@
+DRIVE1 /dev/sda 
+DRIVE2 /dev/sdb 
+SWRAID 1 
+SWRAIDLEVEL 0 
+BOOTLOADER grub 
+HOSTNAME getechdev.com
+PART /boot ext3 512M 
+PART lvm vg0 150G 
+
+LV vg0 root / ext4 50G 
+LV vg0 swap swap swap 8G 
+LV vg0 var /var ext4 10G 
+LV vg0 tmp /tmp ext4 30G
+
+IMAGE /root/CentOS-75-el-x86_64-minimal.tar.xz
+
+zEPdPKBSB6hzCJ
